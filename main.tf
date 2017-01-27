@@ -52,7 +52,7 @@ resource "aws_instance" "web" {
     Identity  = "autodesk-crow"
     Developer = "satyam"
     Training  = "terraform"
-    Office    = "Autodesk"
+    Office    = "Autodesk SFO"
     Name = "Web ${count.index+1}/${var.num_webs}"
   }
 }
