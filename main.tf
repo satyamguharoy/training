@@ -18,11 +18,11 @@
 #     autodesk-crow
 #
 
-variable "num_webs"
+variable "num_webs"{
   default = "3"
 }
 
-variable "aws_access_key {
+variable "aws_access_key" {
   type = "string"
 }
 
